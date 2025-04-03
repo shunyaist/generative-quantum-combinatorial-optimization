@@ -43,7 +43,7 @@ For more details, please refer to the full paper: [Generative quantum combinator
 
 ## 2. Model Download
 
-You can download our trained model at: [Google Drive](https://).
+You can download our trained model at: [Zenodo](https://).
 
 
 
@@ -95,7 +95,7 @@ python -m ipykernel install --user --name .env --display-name "Python (.env)"
 
 
 ### 3.2 Download the model
-1. Download our trained model from: [Google Drive](https://).
+1. Download our trained model from: [Zenodo](https://).
 2. Place the downloaded model at: `./model`
 
 
