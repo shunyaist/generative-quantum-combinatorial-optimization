@@ -1,0 +1,88 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build directories
+/build/
+/dist/
+/out/
+
+# Compiled artifacts
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.class
+*.jar
+*.war
+*.ear
+
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+env/
+venv/
+.env
+output
+**__pycache__
+work/output
+work/export_from_wandb/output
+work/evaluation/outputs
+.virtual_documents
+
+# Ruby
+/vendor/
+
+
+# Visual Studio Code
+.vscode/
+
+# IntelliJ / PyCharm
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+
+# Log files
+*.log
+*.log.*
+
+# Caches
+.cache/
+
+
+# Environment variables
+.env
+.env.local
+
+# SSH / private keys
+*.pem
+*.key
+
+
+# Project specific
+__pycache__
+**/.ipynb_checkpoints/
+**/output/
+**/outputs/
+*Zone.Identifier
+**/model/
+**/wandb
+private
+*.ckpt
+**/old*
+test.ipynb
