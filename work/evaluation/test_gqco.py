@@ -24,7 +24,7 @@ from gqco.task import GQCO
 
 
 
-parser = argparse.ArgumentParser(description='Megatron-LM Arguments', allow_abbrev=False)
+parser = argparse.ArgumentParser(description='GQCO', allow_abbrev=False)
 group = parser.add_argument_group(title='setting')
 group.add_argument('--temperature', type=float, default=1.0, help='temperature')
 group.add_argument('--num-clone', type=int, default=10, help='Number of sampling')
@@ -58,7 +58,7 @@ def _get_answer(dct, metric='min'):
 
 
 task_path = '../model/taskobjects.pkl'
-checkpoint_path = '../model/merged_model.ckpt'
+checkpoint_path = '../model/model.ckpt'
 testdata_path = './testdata.pkl'
 seed=0
 SEED = this_args.seed
