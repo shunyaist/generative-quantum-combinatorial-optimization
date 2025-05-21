@@ -101,7 +101,7 @@ python -m ipykernel install --user --name .env --display-name "Python (.env)"
 
 
 
-### 3.2 Demo for circuot generation
+### 3.2 Demo for circuit generation
 See: [Notebook](./notebook/Demo.ipynb)
 
 
