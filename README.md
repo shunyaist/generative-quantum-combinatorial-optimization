@@ -160,8 +160,9 @@ Use `kick_ABCI.sh`.
 
 Note that you should set the absolute path to this directory in your environment using `cd <your directory>` (line 10).
 
-The user guide for ABCI is [here](https://docs.abci.ai/v3/en/).
-
+~~The user guide for ABCI is [here](https://docs.abci.ai/v3/en/).~~
+\
+ABCI2.0 has been retired. Please use [ABCI3.0](https://docs.abci.ai/v3/en/) or [ABCI-Q](https://unit.aist.go.jp/g-quat/HowToUse/en/abci_q/index.html), which are currently available.
 
 
 
