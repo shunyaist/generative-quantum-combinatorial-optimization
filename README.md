@@ -36,7 +36,7 @@ For more details, please refer to the full paper: [Generative quantum combinator
 
 
 <div align="center">
-  <img src="./images/Fig_GQCO.svg" width="100%" alt="GQCO" />
+  <img src="./images/Fig_GQCO.svg" width="90%" alt="GQCO" />
 </div>
 
 
