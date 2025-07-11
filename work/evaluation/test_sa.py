@@ -13,7 +13,7 @@ import argparse
 import neal
 
 
-parser = argparse.ArgumentParser(description='Megatron-LM Arguments', allow_abbrev=False)
+parser = argparse.ArgumentParser(description='', allow_abbrev=False)
 group = parser.add_argument_group(title='setting')
 group.add_argument('--num-reads', type=int, default=10, help='NUmber of reads')
 group.add_argument('--num-sweeps', type=int, default=10, help='Number of sweeps')
@@ -79,7 +79,7 @@ for adj in tqdm.tqdm(testdata[size], desc=f'num_reads: {num_reads}, sweeps: {num
     if count == 10:
         break
     
-with open(f'./outputs/saans_r{num_reads}_sw{num_sweeps}_s{size}.pkl', 'wb') as f:
+with open(f'./data/saans_r{num_reads}_sw{num_sweeps}_s{size}.pkl', 'wb') as f:
     pickle.dump({
         'answer': _ans,
         'time': _tms

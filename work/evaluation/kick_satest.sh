@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for r in 10
+for r in 100
 do
   for sw in 100 1000 10000 100000 1000000 10000000
   # for sw in 10000000
