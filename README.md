@@ -45,6 +45,8 @@ For more details, please refer to the full paper: [Generative quantum combinator
 
 You can download our trained model at: [Zenodo](https://zenodo.org/records/15128326).
 
+Note: Use 'model.ckpt' for general purposes. 'model_finetune.ckpt' is intended specifically for sparse graphs consisting of 10 nodes.
+
 
 
 ## 3. Quick start
@@ -95,7 +97,7 @@ python -m ipykernel install --user --name .env --display-name "Python (.env)"
 
 
 ### 3.2 Download the model
-1. Download our trained model from: [Zenodo](https://zenodo.org/records/15128326).
+1. Download our trained model 'model.ckpt' from: [Zenodo](https://zenodo.org/records/15128326).
 2. Place the downloaded model at: `./model`
 
 
