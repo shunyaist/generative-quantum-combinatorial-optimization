@@ -183,7 +183,31 @@ This work was performed for Council for Science, Technology and Innovation (CSTI
 
 
 ## 8. Copyright and licence
-This code repository is licensed under MIT License.
+The original source code and its comments in this repository are licensed under
+the [MIT License](LICENSE).
+
+Copyright (c) 2024 Shunya Minami.
+
+Third-party source code retains its original copyright and license notices.
+The PyTorch-derived `TransformerDecoderLayer` in [`gqco/model.py`](gqco/model.py)
+is identified in [THIRD_PARTY_NOTICES](THIRD_PARTY_NOTICES), which reproduces the
+upstream copyright notice, redistribution conditions, and disclaimer. Retain
+these notices when redistributing that portion of the code.
+
+### Recorded version of gqco/quantum.py
+
+The MIT copyright and permission notice in [LICENSE](LICENSE) also applies to
+the implementation and comments of `gqco/quantum.py` with Git blob SHA-1
+`2d0f8db07cfce198f9323962fe7d6af4e1321de4`. This file content is present in
+[commit 0ee59c9c04fc802b03aaaefd98a65cc0ac86e868](https://github.com/shunyaist/generative-quantum-combinatorial-optimization/blob/0ee59c9c04fc802b03aaaefd98a65cc0ac86e868/gqco/quantum.py).
+
+Shunya Minami is the sole author and copyright holder of this file, first
+written in 2024. Its implementation and comments were not copied or adapted
+from third-party sources. The libraries it imports retain their own licenses.
+
+This clarification concerns the source implementation and its comments. It
+does not clarify or change the terms of the paper, downloaded model
+checkpoints, or other research artifacts.
 
 
 ## 9. Citaion
